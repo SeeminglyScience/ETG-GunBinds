@@ -1,0 +1,7 @@
+Name: GunBinds
+Version: 1.0.0
+Author: SeeminglyScience
+
+DLL: GunBinds.dll
+
+Depends: Base 0.2

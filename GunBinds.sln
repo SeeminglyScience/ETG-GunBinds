@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4F676F1-5A67-4922-9C01-B03759EBDD6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunBinds", "src\GunBinds\GunBinds.csproj", "{57445610-0892-47C3-BE16-453172104123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57445610-0892-47C3-BE16-453172104123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57445610-0892-47C3-BE16-453172104123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57445610-0892-47C3-BE16-453172104123}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{57445610-0892-47C3-BE16-453172104123}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57445610-0892-47C3-BE16-453172104123} = {B4F676F1-5A67-4922-9C01-B03759EBDD6F}
+	EndGlobalSection
+EndGlobal

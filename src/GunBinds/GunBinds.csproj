@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="MonoMod.RuntimeDetour" Version="22.1.4.3" /> -->
+    <!-- <PackageReference Include="MonoMod.Utils" Version="22.1.4.3" /> -->
+    <PackageReference Include="Lib.Harmony" Version="2.2.0" />
+    <PackageReference Include="MonoMod.RuntimeDetour" Version="19.2.7.8" />
+    <PackageReference Include="MonoMod.Utils" Version="19.2.7.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <!-- <Reference Include="Mono.Cecil">
+      <HintPath>$(ETG_DATA)\Managed\Mono.Cecil.dll</HintPath>
+      <Private>true</Private>
+    </Reference> -->
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ETG_DATA)\Managed\ModBackup\UnityEngine.CoreModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule.Base.mm">
+      <HintPath>$(ETG_DATA)\Managed\UnityEngine.CoreModule.Base.mm.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ETG_DATA)\Managed\UnityEngine.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(ETG_DATA)\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(ETG_DATA)\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(ETG_DATA)\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(ETG_DATA)\Managed\ModBackup\Assembly-CSharp.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp.Base.mm">
+      <HintPath>$(ETG_DATA)\Managed\Assembly-CSharp.Base.mm.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>$(ETG_DATA)\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <!-- <Reference Include="MMHOOK_Assembly-CSharp">
+      <HintPath>..\..\MMHOOK_Assembly-CSharp.dll</HintPath>
+      <Private>true</Private>
+    </Reference> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="metadata.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
