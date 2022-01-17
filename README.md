@@ -1,6 +1,6 @@
 # GunBinds
 
-A mod for Enter the Gungeon that allows you to assign a gun to a favorite and then use that key to swap to it.
+A mod for Enter the Gungeon that allows you to assign a gun to a favorite and then use that key to swap to it. [See on ModWorkshop](https://modworkshop.net/mod/35899).
 
 ## Why
 
